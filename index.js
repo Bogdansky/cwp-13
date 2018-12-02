@@ -12,7 +12,7 @@ const dbOptions = {
       paranoid: true
     }
   };
-  const sequelize = new Sequelize('tracking','root','5591',dbOptions);
+  const sequelize = new Sequelize('tracking','root',[there is password],dbOptions);
 
   let fleets = sequelize.define('fleets', {
       id: {
